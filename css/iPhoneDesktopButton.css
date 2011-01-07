@@ -1,0 +1,76 @@
+.iPhoneDesktopButton{
+    width: 50px;
+    height: 50px;
+    position:relative;
+    margin-bottom:30px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.iPhoneDesktopButton img {
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.iPhoneDesktopButtonRemove{
+    background-image: url('../remove.png');
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    width: 23px;
+    height: 23px;
+}
+
+.iPhoneDesktopBg{
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #2373a5), color-stop(70%, #ffffff), color-stop(100%, #174870));
+}
+
+
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale(1.0);
+    opacity: 0.75;
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    opacity: 1.0;
+  }
+  to { 
+    -webkit-transform: scale(1.0);
+    opacity: 0.75;
+  }
+}
+
+
+.pulse { 
+  -webkit-animation-name: pulse; 
+  -webkit-animation-duration: 0.5s; 
+  -webkit-animation-iteration-count: infinite; 
+}
+
+@-webkit-keyframes shake {
+  from {
+    -webkit-transform: rotate(3deg);
+    opacity: 1.0;
+  }
+  50% {
+    -webkit-transform: rotate(-3deg);
+    opacity: 1.0;
+  }
+  to { 
+    -webkit-transform: rotate(3deg);
+    opacity: 1.0;
+  }
+}
+
+
+.shake { 
+  -webkit-animation-name: shake; 
+  -webkit-animation-duration: 0.2s; 
+  -webkit-animation-iteration-count: infinite; 
+}
